@@ -1,3 +1,4 @@
 .git/
 .idea/
-api_keys/
+api_keys/*
+!api_keys/readme.txt
