@@ -1,11 +1,9 @@
+from pathlib import Path
 import requests
 import json
 
 
-with open('api_keys/bscscan', 'r') as f:
-    BSCSCAN_API_KEY = f.read()
-with open('api_keys/etherscan', 'r') as f:
-    ETHERSCAN_API_KEY = f.read()
+BSCSCAN_API_KEY = (Path(__file__).parent / './api_keys/bscscan').read_text()
 
 
 def bnb_balance(address):

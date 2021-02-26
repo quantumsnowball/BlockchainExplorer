@@ -1,4 +1,15 @@
+# git
 .git/
+
+# ide
 .idea/
+.vscode/
+
+# python
+__pycache__/
+*.egg-info/
+*.pyc
+
+# credential
 blockscan/api_keys/*
 !blockscan/api_keys/readme.txt
