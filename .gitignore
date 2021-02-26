@@ -1,4 +1,4 @@
 .git/
 .idea/
-api_keys/*
-!api_keys/readme.txt
+blockscan/api_keys/*
+!blockscan/api_keys/readme.txt

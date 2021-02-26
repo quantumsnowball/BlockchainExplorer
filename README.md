@@ -1,4 +1,4 @@
-# Blockchain Explorer
+# BlockScan
 
 * Etherscan
 * Bscscan
